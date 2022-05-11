@@ -7,18 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B310D35A2829495900D56315 /* mercedes.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B310D3592829495900D56315 /* mercedes.usdz */; };
+		B310D35D28295AE200D56315 /* mcdonald.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B310D35B28295AE100D56315 /* mcdonald.usdz */; };
+		B310D35E28295AE200D56315 /* tv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B310D35C28295AE200D56315 /* tv.usdz */; };
+		B310D3622829856800D56315 /* chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B310D3612829856700D56315 /* chair.usdz */; };
+		B310D36428298AC300D56315 /* chair2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B310D36328298AC300D56315 /* chair2.usdz */; };
+		B310D36C282AAC5400D56315 /* coca.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B310D36B282AAC5400D56315 /* coca.usdz */; };
+		B36756242824609A000DBBDF /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36756232824609A000DBBDF /* BrowseView.swift */; };
+		B37CB8AD282442DA003C1995 /* papelHigi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B37CB8AC282442DA003C1995 /* papelHigi.usdz */; };
+		B37CB8AF28244429003C1995 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37CB8AE28244429003C1995 /* ControlView.swift */; };
+		B3991C5E2824A37000D4636B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991C5D2824A37000D4636B /* Model.swift */; };
+		B3991C60282541C900D4636B /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991C5F282541C900D4636B /* PlacementSettings.swift */; };
+		B3991C622825437A00D4636B /* HelloAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991C612825437A00D4636B /* HelloAR.swift */; };
+		B3991C642825448400D4636B /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991C632825448400D4636B /* PlacementView.swift */; };
+		B3991C67282549C700D4636B /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = B3991C66282549C700D4636B /* FocusEntity */; };
+		B3991C69282549F200D4636B /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991C68282549F200D4636B /* CustomARView.swift */; };
+		B3991C6B282553A000D4636B /* mancha.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B3991C6A282553A000D4636B /* mancha.usdz */; };
+		B3991C6D2825607A00D4636B /* mulher1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B3991C6C2825607A00D4636B /* mulher1.usdz */; };
+		B3991C6F2825631D00D4636B /* carro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B3991C6E2825631D00D4636B /* carro.usdz */; };
+		B3991C71282591A500D4636B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991C70282591A500D4636B /* View+Extensions.swift */; };
+		B3991C7328259DDF00D4636B /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991C7228259DDF00D4636B /* SessionSettings.swift */; };
+		B3991C7528259EED00D4636B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3991C7428259EED00D4636B /* SettingsView.swift */; };
+		B3991C782827FDFF00D4636B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B3991C772827FDFF00D4636B /* FirebaseAuth */; };
+		B3991C7A2827FDFF00D4636B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B3991C792827FDFF00D4636B /* FirebaseFirestore */; };
+		B3991C7C2827FE0000D4636B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B3991C7B2827FDFF00D4636B /* FirebaseFirestoreSwift */; };
+		B3991C7E2827FE0000D4636B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B3991C7D2827FE0000D4636B /* FirebaseStorage */; };
+		B3991C802827FF2300D4636B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3991C7F2827FF2300D4636B /* GoogleService-Info.plist */; };
 		B3B8AB5E28241B99002D61D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8AB5D28241B99002D61D2 /* AppDelegate.swift */; };
 		B3B8AB6028241B99002D61D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8AB5F28241B99002D61D2 /* ContentView.swift */; };
-		B3B8AB6228241B9A002D61D2 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B3B8AB6128241B9A002D61D2 /* Experience.rcproject */; };
 		B3B8AB6428241B9E002D61D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B8AB6328241B9E002D61D2 /* Assets.xcassets */; };
 		B3B8AB6728241B9E002D61D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B8AB6628241B9E002D61D2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B310D3592829495900D56315 /* mercedes.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = mercedes.usdz; sourceTree = "<group>"; };
+		B310D35B28295AE100D56315 /* mcdonald.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = mcdonald.usdz; sourceTree = "<group>"; };
+		B310D35C28295AE200D56315 /* tv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv.usdz; sourceTree = "<group>"; };
+		B310D3612829856700D56315 /* chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair.usdz; sourceTree = "<group>"; };
+		B310D36328298AC300D56315 /* chair2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair2.usdz; sourceTree = "<group>"; };
+		B310D36B282AAC5400D56315 /* coca.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = coca.usdz; sourceTree = "<group>"; };
+		B36756232824609A000DBBDF /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		B37CB8AC282442DA003C1995 /* papelHigi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = papelHigi.usdz; sourceTree = "<group>"; };
+		B37CB8AE28244429003C1995 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		B3991C5D2824A37000D4636B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B3991C5F282541C900D4636B /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		B3991C612825437A00D4636B /* HelloAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAR.swift; sourceTree = "<group>"; };
+		B3991C632825448400D4636B /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		B3991C68282549F200D4636B /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		B3991C6A282553A000D4636B /* mancha.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = mancha.usdz; sourceTree = "<group>"; };
+		B3991C6C2825607A00D4636B /* mulher1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = mulher1.usdz; sourceTree = "<group>"; };
+		B3991C6E2825631D00D4636B /* carro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = carro.usdz; sourceTree = "<group>"; };
+		B3991C70282591A500D4636B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		B3991C7228259DDF00D4636B /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		B3991C7428259EED00D4636B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B3991C7F2827FF2300D4636B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3B8AB5A28241B99002D61D2 /* HelloAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B8AB5D28241B99002D61D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3B8AB5F28241B99002D61D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B3B8AB6128241B9A002D61D2 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		B3B8AB6328241B9E002D61D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3B8AB6628241B9E002D61D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -28,12 +73,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3991C67282549C700D4636B /* FocusEntity in Frameworks */,
+				B3991C782827FDFF00D4636B /* FirebaseAuth in Frameworks */,
+				B3991C7A2827FDFF00D4636B /* FirebaseFirestore in Frameworks */,
+				B3991C7E2827FE0000D4636B /* FirebaseStorage in Frameworks */,
+				B3991C7C2827FE0000D4636B /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B37CB8AB282442B0003C1995 /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B37CB8AC282442DA003C1995 /* papelHigi.usdz */,
+				B3991C6C2825607A00D4636B /* mulher1.usdz */,
+				B310D35B28295AE100D56315 /* mcdonald.usdz */,
+				B310D3612829856700D56315 /* chair.usdz */,
+				B310D36B282AAC5400D56315 /* coca.usdz */,
+				B310D35C28295AE200D56315 /* tv.usdz */,
+				B310D36328298AC300D56315 /* chair2.usdz */,
+				B310D3592829495900D56315 /* mercedes.usdz */,
+				B3991C6E2825631D00D4636B /* carro.usdz */,
+				B3991C6A282553A000D4636B /* mancha.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
 		B3B8AB5128241B99002D61D2 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +120,21 @@
 		B3B8AB5C28241B99002D61D2 /* HelloAR */ = {
 			isa = PBXGroup;
 			children = (
+				B37CB8AB282442B0003C1995 /* 3D Assets */,
 				B3B8AB5D28241B99002D61D2 /* AppDelegate.swift */,
+				B3991C612825437A00D4636B /* HelloAR.swift */,
+				B3991C5D2824A37000D4636B /* Model.swift */,
 				B3B8AB5F28241B99002D61D2 /* ContentView.swift */,
-				B3B8AB6128241B9A002D61D2 /* Experience.rcproject */,
+				B3991C7228259DDF00D4636B /* SessionSettings.swift */,
+				B3991C7428259EED00D4636B /* SettingsView.swift */,
+				B3991C68282549F200D4636B /* CustomARView.swift */,
+				B37CB8AE28244429003C1995 /* ControlView.swift */,
+				B36756232824609A000DBBDF /* BrowseView.swift */,
+				B3991C632825448400D4636B /* PlacementView.swift */,
+				B3991C70282591A500D4636B /* View+Extensions.swift */,
+				B3991C5F282541C900D4636B /* PlacementSettings.swift */,
 				B3B8AB6328241B9E002D61D2 /* Assets.xcassets */,
+				B3991C7F2827FF2300D4636B /* GoogleService-Info.plist */,
 				B3B8AB6528241B9E002D61D2 /* Preview Content */,
 			);
 			path = HelloAR;
@@ -86,6 +164,13 @@
 			dependencies = (
 			);
 			name = HelloAR;
+			packageProductDependencies = (
+				B3991C66282549C700D4636B /* FocusEntity */,
+				B3991C772827FDFF00D4636B /* FirebaseAuth */,
+				B3991C792827FDFF00D4636B /* FirebaseFirestore */,
+				B3991C7B2827FDFF00D4636B /* FirebaseFirestoreSwift */,
+				B3991C7D2827FE0000D4636B /* FirebaseStorage */,
+			);
 			productName = HelloAR;
 			productReference = B3B8AB5A28241B99002D61D2 /* HelloAR.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +199,10 @@
 				Base,
 			);
 			mainGroup = B3B8AB5128241B99002D61D2;
+			packageReferences = (
+				B3991C65282549C700D4636B /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				B3991C762827FDFF00D4636B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B3B8AB5B28241B99002D61D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +217,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B310D36428298AC300D56315 /* chair2.usdz in Resources */,
 				B3B8AB6728241B9E002D61D2 /* Preview Assets.xcassets in Resources */,
+				B310D3622829856800D56315 /* chair.usdz in Resources */,
+				B310D35E28295AE200D56315 /* tv.usdz in Resources */,
+				B310D35A2829495900D56315 /* mercedes.usdz in Resources */,
+				B37CB8AD282442DA003C1995 /* papelHigi.usdz in Resources */,
 				B3B8AB6428241B9E002D61D2 /* Assets.xcassets in Resources */,
+				B310D36C282AAC5400D56315 /* coca.usdz in Resources */,
+				B310D35D28295AE200D56315 /* mcdonald.usdz in Resources */,
+				B3991C6F2825631D00D4636B /* carro.usdz in Resources */,
+				B3991C6B282553A000D4636B /* mancha.usdz in Resources */,
+				B3991C6D2825607A00D4636B /* mulher1.usdz in Resources */,
+				B3991C802827FF2300D4636B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +240,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3991C60282541C900D4636B /* PlacementSettings.swift in Sources */,
+				B3991C5E2824A37000D4636B /* Model.swift in Sources */,
+				B3991C7328259DDF00D4636B /* SessionSettings.swift in Sources */,
+				B3991C642825448400D4636B /* PlacementView.swift in Sources */,
+				B36756242824609A000DBBDF /* BrowseView.swift in Sources */,
+				B3991C69282549F200D4636B /* CustomARView.swift in Sources */,
 				B3B8AB6028241B99002D61D2 /* ContentView.swift in Sources */,
+				B37CB8AF28244429003C1995 /* ControlView.swift in Sources */,
 				B3B8AB5E28241B99002D61D2 /* AppDelegate.swift in Sources */,
-				B3B8AB6228241B9A002D61D2 /* Experience.rcproject in Sources */,
+				B3991C7528259EED00D4636B /* SettingsView.swift in Sources */,
+				B3991C71282591A500D4636B /* View+Extensions.swift in Sources */,
+				B3991C622825437A00D4636B /* HelloAR.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +390,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +422,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,6 +458,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B3991C65282549C700D4636B /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		B3991C762827FDFF00D4636B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B3991C66282549C700D4636B /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3991C65282549C700D4636B /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+		B3991C772827FDFF00D4636B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3991C762827FDFF00D4636B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B3991C792827FDFF00D4636B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3991C762827FDFF00D4636B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B3991C7B2827FDFF00D4636B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3991C762827FDFF00D4636B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		B3991C7D2827FE0000D4636B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3991C762827FDFF00D4636B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3B8AB5228241B99002D61D2 /* Project object */;
 }
